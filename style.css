@@ -1,0 +1,167 @@
+
+
+                            /* ================= HEADER ================= */
+/* 
+  Header fixo no topo da aplicação.
+  Utiliza Flexbox para alinhar os elementos horizontalmente.
+*/
+header{
+  background-color: rgb(255, 252, 252);
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #dbdbdb;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+header img{
+  width: 35px;
+  margin-left: 20px;
+}
+header h1{
+  margin-left: 70px;
+  font-weight: lighter;
+
+}
+
+header div{
+  margin-left: 170px;
+}
+/* Campo de busca com ícone SVG como background */
+header input{
+  background-color: rgb(219, 218, 218);
+  width: 280px;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  padding-left: 35px;
+  
+  background-image: url(Fotos/lupa.svg);
+  background-repeat: no-repeat;
+  background-size: 16px;
+  background-position: 10px center;
+}
+                            /* ================= SIDEBAR ================= */
+/* 
+  Sidebar fixa posicionada abaixo do header.
+  z-index negativo utilizado para manter hierarquia visual.
+*/
+aside {
+  margin: 20px 0 0;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+  border-right: 1px solid #dbdbdb;
+  
+}
+
+.profile {
+  background-color: #dbdbdb;
+  height: 90px;
+  width: 250px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  margin-top: 80px;
+  margin-right: 20px;
+  cursor: pointer;
+
+}
+
+.prof_name{
+  background-color: black;
+  height: 70px;
+  width: 70px;
+  border-radius: 50px;
+  margin-left: 10px;
+}
+
+.prof_name h4{
+  margin-left: 80px;
+  width: 130px;
+  
+}
+
+.prof_name p{
+  margin-left: 80px;
+  color: #818181;
+  font-size: 14px;
+}
+
+nav ul{
+ list-style: none;
+}
+
+nav li{
+ margin: 25px;
+ 
+}
+
+nav a{
+  display: flex;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  gap: 20px;
+  
+
+}
+
+nav img{
+  width: 25px;
+}
+                                 /* ================= SUGGESTIONS ================= */
+.suggestions{
+ display: flex;
+ width: 240px;
+ margin-top: 30px;
+ padding: 20px;
+ border-top: 1px solid #dbdbdb;
+ 
+}
+
+.box{
+  background-color: rgb(214, 214, 214);
+  height: 50px;
+  width: 200px;
+  border-radius: 12px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+}
+
+.icone{
+  background-color: black;
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  margin-left: 10px;
+}
+
+.box h6{
+  margin-left: 40px;
+}
+
+button{
+  padding-top: 10px;
+  padding-right: 90px;
+  padding-left: 90px;
+  padding-bottom: 10px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  
+}
+
+.button_position{
+  margin-top: 15px;
+}
