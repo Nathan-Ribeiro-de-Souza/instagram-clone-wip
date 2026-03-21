@@ -1,5 +1,6 @@
 # Instagram UI Clone
 
+[View Project](https://nathan-ribeiro-de-souza.github.io/instagram-clone-wip/)
 A simple Instagram interface clone built using HTML and CSS.
 
 ## About the Project
